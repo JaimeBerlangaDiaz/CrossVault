@@ -114,7 +114,7 @@ public class GestorAlquileres {
      * Devuelve los alquileres ordenados de forma descendente por número de
      * registro.
      */
-    public List<Alquiler> getAlquilersOrdenadosDesc() {
+    public List<Alquiler> getAlquileresOrdenadosDesc() {
         return alquileres.stream()
                 .sorted(Comparator.comparingInt(Alquiler::getNumeroRegistro).reversed())
                 .collect(Collectors.toList());

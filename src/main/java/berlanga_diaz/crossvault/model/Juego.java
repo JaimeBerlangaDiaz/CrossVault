@@ -22,7 +22,7 @@ public class Juego {
         }
     }
 
-    public String getTitutlo() {
+    public String getTitulo() {
         return titulo;
     }
 
